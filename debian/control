@@ -1,0 +1,12 @@
+Source: intel-classmate-drivers
+Section: kernel
+Priority: optional
+Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), dkms
+Standards-Version: 3.9.3
+
+Package: intel-classmate-drivers
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, dkms, linux-headers-686-pae
+Description: Intel classmate kernel modules
+ Drivers for the Intel classmate platform.
